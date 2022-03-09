@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contenedor{
+    display:flex;
+    position: absolute;
+    background-image: linear-gradient( 109.6deg,  rgba(118,12,99,1) 11.2%, rgba(71,11,75,1) 98.6% );
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /*background-image: linear-gradient( 109.6deg,  rgba(118,12,99,0.5) 11.2%, rgba(71,11,75,0.5) 98.6% );*/
+    background-image: url(ror.png);
+    background-repeat: no-repeat,;
+    background-size: cover;
+    width: 98%;
+    height: 97%;
+   /* border: 2px solid linear-gradient( 109.6deg,  rgba(197, 95, 178, 0.87) 11.2%, rgba(97, 46, 100, 0.89) 98.6% );
+   */
+    border: 2px solid white;
+}
+
+.contenido{
+    background-image: linear-gradient( 109.6deg,  rgba(197, 95, 178, 0.6) 11.2%, rgba(97, 46, 100, 0.6) 98.6% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 98%;
+    height: 97%; 
+    backdrop-filter: blur(2px);
+    flex-direction: column;
+}
+
+.numero{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: aqua;
+}
+
+.letra{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: aqua;
+
+}
+
+.ocho{
+    font-size: 400px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+   
+}
+
+.oct{
+    font-size: 400px;
+    color: transparent;
+    text-shadow: 1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    display: flex;
+    position: absolute;
+}
+.contenido .march{
+    font-size: 200px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+   z-index: 100;
+}
+
+.mrch{
+    font-size: 200px;
+    color: transparent;
+    text-shadow: 1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    display: flex;
+    position: absolute;
+}
+
+@media screen and (max-width:800px){
+
+    .contenido .ocho{
+        font-size: 300px;
+    }
+    
+    .oct{
+        font-size: 300px;
+    }
+    .contenido .march{
+        font-size: 150px;
+    }
+    
+    .mrch{
+        font-size: 150px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+
+    .contenido .ocho{
+        font-size: 250px;
+    }
+    
+    .oct{
+        font-size: 250px;
+    }
+    .contenido .march{
+        font-size: 100px;
+    }
+    
+    .mrch{
+        font-size: 100px;
+    }
+    
+}
